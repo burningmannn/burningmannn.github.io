@@ -49,7 +49,7 @@ var en = {
     'q2': 'Working with MySQL databases.',
     'q1': 'Writing technical documentation for developed functional.',
     'description_text': 'Key skills and responsibilities:',
-    'description': '<b>About me:</b> I have experience of passing a six-month internship in web development as part of a team. Developed a local site for accounting equipment at the enterprise, implemented access rights differentiation, developed the database itself consisting of several tables, added editing tables from the database directly on the site, implemented feedback with subsequent sending of messages to the companys mail, as well as creating reports on the desired selection and category.(Uploaded to the host promenergoekb.000webhostapp.com ). I do sports and have no bad habits.',
+    'description': '<b>About me:</b> I have experience of passing a six-month internship in web development as part of a team. Developed a local site for accounting equipment at the enterprise, implemented access rights differentiation, developed the database itself consisting of several tables, added editing tables from the database directly on the site, implemented feedback with subsequent sending of messages to the companys mail, as well as creating reports on the desired selection and category. (Uploaded to the host promenergoekb.000webhostapp.com) I do sports and have no bad habits.',
     'name': '<h1>Daniil Shutkin</h1><h2>Mobile developer</h2>',
     'theme': '<span>Dark Mode</span>',
     'language': '<span>Language</span>',
