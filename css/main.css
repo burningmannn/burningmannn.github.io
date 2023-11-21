@@ -41,7 +41,7 @@ a {
 }
 
 section {
-    margin-bottom: 3em;
+    margin-bottom: 0.5em;
     position: relative;
 }
 
@@ -75,7 +75,7 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 .experience__description {
     flex: 1;
@@ -259,6 +259,10 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.linksite {
+	text-decoration: none;
 }
 
 html.transition,
