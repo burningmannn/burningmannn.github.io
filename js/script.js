@@ -19,7 +19,7 @@ function transition() {
 var en = {
     'description_skills_languages' : '<b>Languages: </b>&nbsp;Swift, CSS, PHP, Kotlin, SQL, C#.',
     'description_skills_stack' : '<b>Stack: </b>&nbsp;Dashboards, UIKit, SwiftUI, Jira, Git.',
-    'description_skills_tools' : '<b>Tools: </b>&nbsp;SOLID, MVP, MVVM.',
+    'description_skills_tools' : '<b>Tools: </b>&nbsp;SOLID, MVC, MVVM.',
     'name_of_two_company' : 'Yekaterinburg Metro ',
     'description_of_two_company' : '<b>Description: </b> Creation of programs to help employees in their work (at the request of managers). Support for biometric systems, document management (progress report), monitoring settings of the entire metro system, analysis of logs.',
     'position_of_two_company' : '<b>Position: </b> System Engineer-Programmer',
@@ -50,7 +50,7 @@ var en = {
 }; var ru = {
     'description_skills_languages' : '<b>Языки: </b>&nbsp;Swift, CSS, PHP, Kotlin, SQL, C#.',
     'description_skills_stack' : '<b>Стек: </b>&nbsp;Dashboards, UIKit, SwiftUI, Jira, Git.',
-    'description_skills_tools' : '<b>Инструменты: </b>&nbsp;SOLID, MVP, MVVM.',
+    'description_skills_tools' : '<b>Инструменты: </b>&nbsp;SOLID, MVC, MVVM.',
     'name_of_two_company' : 'Екатеринбургский метрополитен',
     'description_of_two_company' : '<b>Описание: </b> Создание программ для помощи в работе сотрудникам (по запросам руководителей). Поддержка систем работы с биометрией, документооборот (отчёт о проделанной работе), настройка мониторинга всей системы работы метрополитена, разбор логов.',
     'position_of_two_company' : '<b>Позиция: </b> Системный Инженер-Программист',
