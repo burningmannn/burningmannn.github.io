@@ -18,7 +18,7 @@ function transition() {
 }
 var en = {
     'description_skills_languages' : '<b>Languages: </b>&nbsp;Swift, CSS, PHP, SQL, C#.',
-    'description_skills_stack' : '<b>Stack: </b>&nbsp;Dashboards, UIKit, SwiftUI, Jira, XML<!-- Docker, SQLite, REST API, JSON, Lottie Animation -->, Git.',
+    'description_skills_stack' : '<b>Stack: </b>&nbsp;Dashboards, UIKit, SwiftUI, Jira, XML<!-- Docker, Unit testing, SQLite, REST API, JSON, Lottie Animation -->, Git.',
     'description_skills_tools' : '<b>Tools: </b>&nbsp;SOLID, MVC, MVVM.',
     'name_of_two_company' : 'Yekaterinburg Metro ',
     'description_of_two_company' : '<b>Description: </b> Creation of programs to help employees in their work (at the request of managers). Support for biometrics systems, document management (progress report), monitoring settings (Zabbix, Grafana) of the metro system, switch configuration and log analysis.',
@@ -49,7 +49,7 @@ var en = {
     'language': '<span>Language</span>',
 }; var ru = {
     'description_skills_languages' : '<b>Языки: </b>&nbsp;Swift, CSS, PHP, SQL, C#.',
-    'description_skills_stack' : '<b>Стек: </b>&nbsp;Dashboards, UIKit, SwiftUI, Jira, XML<!-- Docker, SQLite, REST API, JSON, Lottie Animation -->, Git.',
+    'description_skills_stack' : '<b>Стек: </b>&nbsp;Dashboards, UIKit, SwiftUI, Jira, XML<!-- Docker, Unit testing, SQLite, REST API, JSON, Lottie Animation -->, Git.',
     'description_skills_tools' : '<b>Инструменты: </b>&nbsp;SOLID, MVC, MVVM.',
     'name_of_two_company' : 'Екатеринбургский метрополитен',
     'description_of_two_company' : '<b>Описание: </b> Создание программ для помощи в работе сотрудникам (по запросам руководителей). Поддержка систем работы с биометрией, документооборот (отчёт о проделанной работе), настройка мониторинга (Zabbix, Grafana) системы работы метрополитена, настройка коммутаторов и анализ логов.',
