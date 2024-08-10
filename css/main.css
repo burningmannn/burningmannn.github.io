@@ -3,12 +3,22 @@ html {
     --primary-color: #2f80ed;
     --secondary-color: #333333;
     --bg-color: #ffffff;
+    --ball-color1: linear-gradient(#fc002e, #b2ff00);
+    --ball-color2: linear-gradient(#b2ff00, #00e8ff);
+    --ball-color3: linear-gradient(#00e8ff, #ff0000);
+    --ball-color4: linear-gradient(#ff0000, #0489f5);
+    --ball-color5: linear-gradient(#0489f5, #ff00dd);
 }
 
 html[data-theme='dark'] {
     --primary-color: #2f80ed;
     --secondary-color: #ffffff;
     --bg-color: #202020;
+    --ball-color1: linear-gradient(#edf2f4, #d80032);
+    --ball-color2: linear-gradient(#3c096c, #5a189a);
+    --ball-color3: linear-gradient(#7b2cbf, #9d4edd);
+    --ball-color4: linear-gradient(#c77dff, #e0aaff);
+    --ball-color5: linear-gradient(#10002b, #e0aaff);
 }
 
 body {
@@ -143,7 +153,6 @@ section {
     align-items: center;
     /*justify-content: center;*/
 }
-
 
 
 .theme-switch-wrapper .theme-switch__label,.lang-switch-wrapper .lang-switch__label {
@@ -311,7 +320,7 @@ html.transition * {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background: linear-gradient(#ff00dd, #4c00ff);
+    background: var(--ball-color1);
     transform: translate(calc(47vw - 30px), calc(29vh - 0px));
     position: fixed;
     filter: blur(5px);
@@ -321,7 +330,7 @@ html.transition * {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: linear-gradient(#0489f5, #66fc00);
+    background: var(--ball-color2);
     transform: translate(calc(63vw - 30px), calc(2vh - 0px));
     position: fixed;
     filter: blur(5px);
@@ -331,7 +340,7 @@ html.transition * {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background: linear-gradient(#ff0000, #00fc1c);
+    background: var(--ball-color3);
     transform: translate(calc(30vw - 30px), calc(22vh - 0px));
     position: fixed;
     filter: blur(5px);
@@ -341,7 +350,7 @@ html.transition * {
     height: 65px;
     width: 65px;
     border-radius: 50%;
-    background: linear-gradient(#00e8ff, #006dfc);
+    background: var(--ball-color4);
     transform: translate(calc(65vw - 30px), calc(69vh - 0px));
     position: fixed;
     filter: blur(5px);
@@ -351,7 +360,7 @@ html.transition * {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    background: linear-gradient(#b2ff00, #fc002e);
+    background: var(--ball-color5);
     transform: translate(calc(25vw - 30px), calc(55vh - 0px));
     /* top: 50%;
     left: 50%; */
