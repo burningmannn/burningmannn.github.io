@@ -936,13 +936,17 @@ body.light-theme .projects{
   height: 250px; /* Высота изображения */
   object-fit: cover; /* Сохраняем пропорции изображения */
   border-radius: 10px;
-  border: 1px solid rgba(100,100,100,0.3);
+/*  border: 1px solid rgba(100,100,100,0.3);*/
 }
 
 /* Стили для активной карточки */
 .item.active {
+  box-shadow: 0 0 10px var(--main-color-dark);
   filter: none; /* Убираем эффект блюра */
   z-index: 2; /* Увеличиваем z-index для активной карточки */
+}
+body.light-theme .item.active {
+  box-shadow: 0 0 10px var(--main-color-light);
 }
 
 /* Эффект подсветки при наведении */
