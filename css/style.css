@@ -918,7 +918,7 @@ body.light-theme .item {
 }
 
 .projects{
-  padding: 100px 15px;
+  padding: 100px 0px;
   background: var(--second-bg-color-dark);
 }
 body.light-theme .projects{
