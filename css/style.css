@@ -25,7 +25,7 @@
   --gradient-color-light: linear-gradient(270deg,#0857df 10%,#8a15ff 100%);
 }
 ::selection {
-  background-color: #00ff1b;
+  background-color: #00c4ff;
   color: #000000;
 }
 body.light-theme ::selection {
