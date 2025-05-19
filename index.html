@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniil Shutkin</title>
+    <link rel="icon" href="css/img/mac.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header class="header no-select">
+      <a href="#home" class="logo">Daniil <span class="main-gradient">Shutkin</span></a>
+      <nav class="navbar"></nav>
+      <button class="btn" id="theme-toggle"><i class='bx bx-bulb'></i></button>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1 class="main-greeting" data-translate="main_greeting">Hi, I'm a <span class="main-gradient">developer</span></h1>
+        <div class="social-icons">
+          <a href="https://github.com/burningmannn"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/burningmannn/"><i class='bx bxl-linkedin-square'></i></a>
+          <a href="https://soundcloud.com/burningmannn"><i class='bx bxl-soundcloud'></i></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="css/img/image.png" alt="">
+      </div>
+    </section>
+    <section class="donate" id="donate">
+      <h2 class="heading" data-translate="donate_me">Donate <span data-translate="donate_me_span">Me</span></h2>
+      <div class="container">
+        <div class="donate-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+          <h2>TONCOIN</h2>
+          <div class="icon-ton">
+            <img src="css/img/ton-icon.svg" alt="TON Icon" class="ton-icon">
+          </div>
+          <div class="info">
+            <ul>
+              <li id="eth-price">TON Price: Loading...</li>
+              <li><img class="donate-image" src="css/img/QR_Code.png"></li>
+              <li>
+                <span class="ton-address" id="eth-address">UQDfxi1YU6sXr2v0gvyONY8pk9WXzAOAa4XKH7bzSQ7KI0ye</span>
+                <i class="bx bx-copy copy-icon" onclick="copyAddress()"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-empty"></footer>
+    <footer class="footer-pc">
+      <p class="copyright"></p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="tilt.js"></script>
+  </body>
+</html>
