@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             scroll: "Scroll",
             label_language: "Language",
             label_theme: "Theme",
-            culon_description: "Modern landing page with Telegram Mini App integration. VPN service operates on VLESS protocol with automated payment processing via Telegram Stars and webhook integration for instant verification."
+            culon_description: "Modern landing page with Telegram Mini App integration. Service operates on VLESS protocol with automated payment processing via Telegram Stars and webhook integration for instant verification."
         },
         ru: { 
             home: "О себе", 
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
             scroll: "Листай",
             label_language: "Язык",
             label_theme: "Тема",
-            culon_description: "Современный лендинг с интеграцией Telegram Mini App. VPN-сервис работает на протоколе VLESS с автоматизированной обработкой платежей через Telegram Stars и webhook интеграцией для мгновенной верификации."
+            culon_description: "Современный лендинг с интеграцией Telegram Mini App. Сервис работает на протоколе VLESS с автоматизированной обработкой платежей через Telegram Stars и webhook интеграцией для мгновенной верификации."
         }
     };
 
