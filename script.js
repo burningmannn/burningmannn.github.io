@@ -77,7 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
             donate: "Donate",
             donate_me: "Donate",
             donate_me_span: "Me",
-            about_text: "I had another page with a bunch of projects, but unfortunately Github itself deleted my account without explanation. So I started from scratch.",
             experience: "Experience",
             timeline_date_one: "2018-2019",
             timeline_place_one: "Serov Metallurgical College",
@@ -97,14 +96,14 @@ document.addEventListener('DOMContentLoaded', () => {
             projects: "Projects",
             about: "About",
             role: "I'm a<span class=\"lastName\">Developer</span>",
-            hero_description: "Cultured person, employed, neatly dressed,<br>friendly and polite",
+            hero_description: "This is my page",
             float_code: "Code",
             float_design: "Design",
             float_innovation: "Innovation",
             scroll: "Scroll",
             label_language: "Language",
             label_theme: "Theme",
-            culon_description: "Modern landing page with Telegram Mini App integration. Service operates on VLESS protocol with automated payment processing via Telegram Stars and webhook integration for instant verification."
+            culon_description: "Landing page with Telegram Mini App integration. Service operates on VLESS protocol with automated payment processing via Telegram Stars and webhook integration for instant verification."
         },
         ru: { 
             home: "О себе", 
@@ -114,7 +113,6 @@ document.addEventListener('DOMContentLoaded', () => {
             donate: "Пожертвовать",
             donate_me: "Пожертвовать",
             donate_me_span: "мне",
-            about_text: "У меня была еще одна страница с кучей проектов, но, к сожалению, сам Github удалил мою учетную запись без объяснения причин. Поэтому я начал с нуля.",
             experience: "Опыт",
             timeline_date_one: "2018-2019",
             timeline_place_one: "Серовский металлургический колледж",
@@ -134,14 +132,14 @@ document.addEventListener('DOMContentLoaded', () => {
             projects: "Проекты",
             about: "О себе",
             role: "Я —&nbsp;<span class=\"lastName\">Разработчик</span>",
-            hero_description: "Культурный человек, трудоустроен, опрятно одет,<br>дружелюбен и вежлив",
+            hero_description: "Это моя страница",
             float_code: "Код",
             float_design: "Дизайн",
             float_innovation: "Инновации",
             scroll: "Листай",
             label_language: "Язык",
             label_theme: "Тема",
-            culon_description: "Современный лендинг с интеграцией Telegram Mini App. Сервис работает на протоколе VLESS с автоматизированной обработкой платежей через Telegram Stars и webhook интеграцией для мгновенной верификации."
+            culon_description: "Лендинг с Telegram Mini App интеграцией. Сервис работает на протоколе VLESS с автоматизированной обработкой платежей через Telegram Stars и webhook интеграцией для мгновенной верификации."
         }
     };
 
