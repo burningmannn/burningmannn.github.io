@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniil Shutkin</title>
+    <link rel="icon" href="css/img/mac.ico" type="image/x-icon">
+    <link rel="menu-icon" href="css/boxicons/menu-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id="preloader" class="no-select">
+      <div id="spiral"></div>
+      <div id="welcome-text">Welcome</div>
+    </div>
+    <div class="background-grid"></div>
+    <div class="site-vignette" aria-hidden="true"></div>
+    <header class="header no-select">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active" id="home-link" data-translate="home"></a>
+        <a href="#experience" class="active" id="experience-link" data-translate="experience"></a>
+        <a href="#projects" class="active" id="projects-link" data-translate="projects"></a>
+        <a href="#donate" class="active" id="donate-link" data-translate="donate"></a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-container">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+        <div class="home-content">
+          <div class="hero-text">
+            <div class="eyebrow">KMP • UIKit & SwiftUI • Mobile Development</div>
+            <h1 class="hero-title">
+              <span class="firstName" data-translate="firstName"></span>
+              <span class="lastName-accent lastName" data-translate="lastName"></span>
+            </h1>
+            <div class="badge-row">
+              <span class="badge">Development</span>
+              <span class="badge">UI/UX Design</span>
+              <span class="badge">English</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <div class="icon-row">
+              <a href="https://github.com/burningmannn" class="icon-link" target="_blank" rel="noopener" title="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/burningmannn/" class="icon-link" target="_blank" rel="noopener" title="LinkedIn">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="https://soundcloud.com/burningmannn" class="icon-link" target="_blank" rel="noopener" title="SoundCloud">
+                <i class="bx bxl-soundcloud"></i>
+              </a>
+              <div class="icon-with-label hide-on-mobile">
+                <button class="icon-link" id="language-toggle" title="Language">
+                  <i class="bx bx-globe"></i>
+                </button>
+                <span class="icon-label" data-translate="label_language">Язык</span>
+              </div>
+              <div class="icon-with-label hide-on-mobile">
+                <button class="icon-link" id="theme-toggle" title="Theme">
+                  <i class="bx bx-bulb"></i>
+                </button>
+                <span class="icon-label" data-translate="label_theme">Тема</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="avatar-block">
+          <div class="image-frame">
+            <img src="css/img/image.png" alt="Daniil Shutkin" class="hero-image">
+          </div>
+          <div class="floating-elements">
+            <div class="floating-card card-1"><i class='bx bx-code-alt'></i><span data-translate="float_code">Code</span></div>
+            <div class="floating-card card-2"><i class='bx bx-palette'></i><span data-translate="float_design">Design</span></div>
+            <div class="floating-card card-3"><i class='bx bx-rocket'></i><span data-translate="float_innovation">Innovation</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="heading" data-translate="experience"></h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-translate="timeline_date_five"></div>
+          <div class="timeline-content">
+            <h3 data-translate="place_work_two"></h3>
+            <p data-translate="timeline_work_two"></p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-translate="timeline_date_three"></div>
+          <div class="timeline-content">
+            <h3 data-translate="timeline_place_three"></h3>
+            <p data-translate="timeline_speciality_three"></p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-translate="timeline_date_two"></div>
+          <div class="timeline-content">
+            <h3 data-translate="timeline_place_two"></h3>
+            <p data-translate="timeline_speciality_two"></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="heading" data-translate="projects"></h2>
+      <div class="slider">
+        <button class="item">
+          <img src="css/img/project1.png" alt="Project 1" class="project-img">
+          <div class="project-info">
+            <h3>Coming soon</h3>
+            <!--<p>Coming soon</p>-->
+            <a href="https://github.com/burningmannn" class="btn project-btn" target="_blank">View</a>
+          </div>
+        </button>
+        <button class="item">
+          <img src="css/img/project2.png" alt="Project 2" class="project-img">
+          <div class="project-info">
+            <h3>culon.net</h3>
+            <div class="project-description">
+              <div class="tech-stack">
+                <span class="tech-tag">VLESS Protocol</span>
+                <span class="tech-tag">Telegram Stars</span>
+                <span class="tech-tag">Webhook API</span>
+              </div>
+              <p data-translate="culon_description">A comprehensive VPN solution with modern landing page, secure VLESS protocol implementation, and seamless Telegram Stars payment integration. Features automated webhook processing for instant payment verification.</p>
+            </div>
+            <a href="https://culon.net" class="btn project-btn" target="_blank">View</a>
+          </div>
+        </button>
+        <button class="item">
+          <img src="css/img/project1.png" alt="Project 3" class="project-img">
+          <div class="project-info">
+            <h3>Coming soon</h3>
+            <!--<p>Coming soon</p>-->
+            <a href="https://github.com/burningmannn" class="btn project-btn" target="_blank">View</a>
+          </div>
+        </button>
+      </div>
+    </section>
+    <section class="donate" id="donate">
+      <h2 class="heading" data-translate="donate_me">Donate <span data-translate="donate_me_span">Me</span></h2>
+      <div class="container">
+        <div class="donate-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+          <h2>TONCOIN</h2>
+          <div class="icon-ton">
+            <img src="css/img/ton-icon.svg" alt="TON Icon" class="ton-icon">
+          </div>
+          <div class="info">
+            <ul>
+              <li id="eth-price">TON Price: Loading...</li>
+              <li><img class="donate-image" src="css/img/QR_Code.png"></li>
+              <li>
+                <span class="ton-address" id="eth-address">UQDfxi1YU6sXr2v0gvyONY8pk9WXzAOAa4XKH7bzSQ7KI0ye</span>
+                <i class="bx bx-copy copy-icon" onclick="copyAddress()"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class = "footer">
+      <ul class = "list">
+      </ul>
+      <p class="copyright">
+        © Daniil Shutkin | All Rights Reserved
+      </p>
+    </footer>
+    <!-- Mobile bottom tab bar -->
+    <nav class="mobile-tabbar no-select" aria-label="Primary">
+      <a href="#home" class="tab-link active" data-nav id="tab-home" title="Home">
+        <i class='bx bx-home-alt-2'></i>
+        <span data-translate="home"></span>
+      </a>
+      <a href="#experience" class="tab-link" data-nav id="tab-experience" title="Experience">
+        <i class='bx bx-briefcase-alt-2'></i>
+        <span data-translate="experience"></span>
+      </a>
+      <a href="#projects" class="tab-link" data-nav id="tab-projects" title="Projects">
+        <i class='bx bx-grid-alt'></i>
+        <span data-translate="projects"></span>
+      </a>
+      <a href="#donate" class="tab-link" data-nav id="tab-donate" title="Donate">
+        <i class='bx bx-donate-heart'></i>
+        <span data-translate="donate"></span>
+      </a>
+      <a href="#" class="tab-link" id="tab-settings" title="Settings" role="button" aria-haspopup="dialog" aria-controls="settings-sheet">
+        <i class='bx bx-cog'></i>
+        <span>Settings</span>
+      </a>
+    </nav>
+    <!-- iOS-style bottom sheet for settings -->
+    <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+    <div class="settings-sheet" id="settings-sheet" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="sheet-handle" aria-hidden="true"></div>
+      <div class="sheet-content">
+        <div class="sheet-group">
+          <div class="sheet-title">Language</div>
+          <div class="ios-segment" role="group" aria-label="Language">
+            <button type="button" class="segment-btn" id="language-toggle-mobile-en">EN</button>
+            <button type="button" class="segment-btn" id="language-toggle-mobile-ru">RU</button>
+          </div>
+        </div>
+        <div class="sheet-group">
+          <div class="sheet-title">Theme</div>
+          <div class="ios-segment" role="group" aria-label="Theme">
+            <button type="button" class="segment-btn" id="theme-mobile-dark">Dark</button>
+            <button type="button" class="segment-btn" id="theme-mobile-light">Light</button>
+          </div>
+        </div>
+        <button class="sheet-close" id="settings-close" aria-label="Close">Done</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="tilt.js"></script>
+  </body>
+</html>
